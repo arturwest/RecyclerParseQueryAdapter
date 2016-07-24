@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:paddingLeft="10dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+
+    <com.parse.ParseImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/categoriesImage"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/categoriesArrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/categoriesArrow"
+        android:layout_toStartOf="@id/categoriesArrow"
+        android:layout_marginLeft="130dp"
+        android:gravity="center|start"
+        android:layout_marginStart="130dp"
+        android:id="@+id/categoriesName"/>
+
+
+
+
+
+</RelativeLayout>
